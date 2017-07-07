@@ -1,19 +1,29 @@
-
 /**
-* HC-SR04
-* Ultrasonic sensor
-* Speed of sound:
-* v = 340m/s
-* v = 0,034cm/us
-*
-* Time = distance / speed:
-* t = s/v=10/0,034 = 294us
-*
-* Distance in cm:
-* s = t * 0,034 / 2
-* We need to divide it by 2, because the sound has to path this distance two times.
-* (there and than back)
-*/
+ * Link:
+ * https://www.youtube.com/watch?v=ZejQOX69K5M
+ * 
+ * HC-SR04
+ * Ultrasonic sensor
+ * Speed of sound:
+ * v = 340m/s
+ * v = 0,034cm/us
+ *
+ * Time = distance / speed:
+ * t = s/v=10/0,034 = 294us
+ *
+ * Distance in cm:
+ * s = t * 0,034 / 2
+ * We need to divide it by 2, because the sound has to path this distance two times.
+ * (there and than back)
+ * 
+ * Pinout:
+ * ---------------------
+ * HC-SR04      ARDUINO
+ *   Vcc          5V
+ *   Trig		  9	
+ *   Echo         10
+ *   Gnd          Gnd
+ **/
 
 const int trigPin = 9;
 const int echoPin = 10;
