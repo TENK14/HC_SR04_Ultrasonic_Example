@@ -5,6 +5,11 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HC_SR04_Ultrasonic_Example", "HC_SR04_Ultrasonic_Example.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{2C7FDF23-31E4-4387-815F-1B40C0A24B04}"
+	ProjectSection(SolutionItems) = preProject
+		Doc\HC-SR04-scheme.png = Doc\HC-SR04-scheme.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
